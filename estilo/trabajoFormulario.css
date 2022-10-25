@@ -1,0 +1,28 @@
+/*Beatriz Arbizu Ramírez uo225211*/
+/*Selectores de especificidad 001*/
+
+textarea{
+	width: 70%;
+	height: 80%;
+}
+fieldset{
+	border:ridge;
+	text-align: left;
+	border-color: #3f5da8;
+	padding: 2fr;
+}
+
+
+/*Selectores de especificidad 002*/
+fieldset legend{
+	color:#3f5da8;
+}
+/*Selectores de especificidad 011*/
+
+input[type="submit"]{
+	width: 100%;
+	height: 4fr;
+	font-size:1em;
+	background: #000084;
+    color: #E3F7FF;
+}

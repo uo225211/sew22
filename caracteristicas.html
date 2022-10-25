@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+<title>Framework React - Características</title>
+<meta charset="UTF-8"/>
+<meta name ="author" content ="Beatriz Arbizu Ramírez" />
+<meta name="keywords" content="react, DOM, Ciclos de vida, JSX"/>
+<meta name="description" content="Características de React"/>
+<meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="estilo/trabajo.css"  />
+<link rel="stylesheet" type="text/css" href="estilo/trabajoLista.css"  />
+<link rel="stylesheet" type="text/css" href="estilo/layoud.css"  />
+
+</head>
+
+<body>
+	<header>
+		<h1>React</h1>
+		<p>Una biblioteca de JavaScript para crear interfaces de usuario</p>
+	</header>
+<nav>
+
+	<a href="index.html" accesskey="I" tabindex="1">Inicio</a>
+	<a href="caracteristicas.html" accesskey="C" tabindex="2">Características</a>
+	<a href="historia.html" accesskey="H" tabindex="3">Historia</a>
+	<a href="uso.html" accesskey="C" tabindex="3">Como usar React</a>
+	<a href="formulario.html" accesskey="D" tabindex="4">Danos tu opinión</a>
+	
+</nav>
+
+<main>
+	<h1 >Características</h1>
+	<p>
+		Las principales caracteristicas de React son: 
+	</p>
+	<dl>
+		<dt>Virtual DOM</dt>
+		<dd>React mantiene un virtual DOM propio, en lugar de confiar solamente en el DOM del navegador. Esto deja a la biblioteca determinar qué partes del DOM han 
+			cambiado comparando contenidos entre la versión nueva y la almacenada en el virtual DOM, y utilizando el resultado para determinar cómo actualizar eficientemente el 
+			DOM del navegador.</dd>
+		<dt>
+			Propiedades (props) de react
+		</dt>
+		<dd>
+			Las propiedades (también conocidas como 'props') pueden definirse como los atributos de configuración para dicho componente. Éstas son recibidas desde un nivel superior,
+			 normalmente al realizar la instancia del componente y por definición son inmutables.
+		</dd>
+		<dt>
+			Estado
+		</dt>
+		<dd>
+			El estado de un componente se define como una representación del mismo en un momento concreto, es decir, una instantánea del propio componente. Existen dos tipos de componentes con y 
+			sin estado, denominados statefull y stateless.
+		</dd>
+		<dt>
+			Ciclos de vida
+		</dt>
+		<dd>
+			El ciclo de vida es una serie de estados por los cuales pasan los componentes statefull a lo largo de su existencia. Se pueden clasificar en tres etapas de montaje o
+			 inicialización, actualización y destrucción. Dichas etapas tienen correspondencia en diversos métodos.
+		</dd>
+		<dt>
+			JSX
+		</dt>
+		<dd>
+			React utiliza una sintaxis parecida a HTML, llamada JSX. No es necesaria para utilizar React, sin embargo, hace el código más legible, y escribirlo es una experiencia similar a HTML. 
+		</dd>
+	</dl>
+</main>
+
+<aside>
+	<h2>Escucha un poco de musica mientras lees</h2>
+	<audio src="multimedia/audio.mp3" controls> </audio>
+</aside>
+<footer>
+<a href="https://validator.w3.org/check?uri=referer">
+  <img src=" multimedia/HTML5.png" alt=" HTML5 Válido!" /></a>
+<a href=" http://jigsaw.w3.org/css-validator/check/referer ">
+	<img src="multimedia/CSS3.png" 
+		alt="CSS Válido" height="63" width="64" /></a>  
+</footer>
+
+
+</body>
+
+</html>

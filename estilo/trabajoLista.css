@@ -1,0 +1,13 @@
+/*Beatriz Arbizu Ramírez uo225211*/
+/*Selectores de especificidad 001*/
+dt {
+    font-size: 1em;
+    font-style: oblique;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+  
+dd{
+    text-align: justify;
+}
+

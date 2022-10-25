@@ -1,0 +1,68 @@
+/*Beatriz Arbizu Ramírez uo225211*/
+/*Selectores de especificidad 001*/
+body{
+	font-family:Verdana, sans-serif;
+	font-size:1em;
+	font-weight:300;
+	color:#000000;
+	background-color:#FFFFFF;
+	margin: 1.563em 3.125em;
+
+}
+header{
+	padding:1.875em;
+	background:#E3F7FF;
+	color:#193c53;
+	width: 100%;
+}
+p {	
+	text-align: justify;
+}
+
+
+h1{
+	color:#1b294d;	
+
+}
+footer{
+	padding: 0.625em;
+}
+h2,h3,h4{
+	color:#3f5da8;
+}
+video {
+	width: 100%;
+	height: auto;
+  }
+/*Selectores de especificidad 002*/
+header p{
+    color: #000084;
+    background: #E3F7FF;
+    font-size: 1.25em;
+}
+header h1 {
+    font-size: 3.125em;
+    font-style: oblique;
+    font-weight: 800;
+    font-variant: small-caps;
+}
+
+/*Selectores de especificidad 002*/
+nav >a{
+	background-color: #1b294d;
+	color: #E3F7FF;
+	padding: 0.625em;
+	text-decoration: none;
+	width:100%;
+  }
+  
+  /*Selectores de especificidad 012*/
+  nav >a:hover{
+	color: #1b294d;
+	background-color: #E3F7FF;
+	width:100%;
+  }
+
+
+
+

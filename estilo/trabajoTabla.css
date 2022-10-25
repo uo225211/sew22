@@ -1,0 +1,29 @@
+/*Beatriz Arbizu Ramírez uo225211*/
+/*Selectores de especificidad 001*/
+
+th{
+	background:#2b3ff8;
+	color:white;
+	
+}
+
+
+table{
+	margin: auto;
+	padding:0.75em;
+	
+}
+
+td,th{
+	border:0.063em solid;
+	padding:0.75em;
+	border-color:#2336e0;
+}
+
+
+
+
+
+	
+
+	
